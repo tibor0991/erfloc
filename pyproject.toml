@@ -6,7 +6,7 @@ authors = ["Gianfranco Damato <gianfranco.damato90@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
 fastapi = {extras = ["standard"], version = "^0.115.5"}
 geopy = "^2.4.1"
 astropy = "^6.1.6"
