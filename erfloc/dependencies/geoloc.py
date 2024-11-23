@@ -26,7 +26,7 @@ class Geolocator:
 def get_geolocator():
     return Geolocator()
 
-GeolocatorDep = Annotated[dict, Depends(get_geolocator)]
+GeolocatorDep = Annotated[Geolocator, Depends(get_geolocator)]
 
 
 
